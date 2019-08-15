@@ -11,7 +11,7 @@ String[] works;
 int pieceNumber;
 
 void setup() {
-  size(3000, 1500); //MUST BE IN THE RATIO 2:1
+  size(1500, 750); //MUST BE IN THE RATIO 2:1
   background(255);
   save("background.png");
   background = loadImage("background.png");
